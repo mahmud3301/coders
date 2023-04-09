@@ -1,0 +1,80 @@
+[
+    {
+        "id": 1,
+        "companyLogo": "https://example.com/company1.png",
+        "jobTitle": "Web Developer",
+        "companyName": "ABC Company",
+        "remoteOrOnsite": "Remote",
+        "location": "Anywhere",
+        "fulltimeOrParttime": "Full-time",
+        "salary": "50,000-80,000",
+        "jobDescription": "We are looking for a web developer to join our team...",
+        "jobResponsibility": "• Develop and maintain web applications...\n• Collaborate with...",
+        "educationalRequirements": "Bachelor's degree in computer science or related field",
+        "experiences": "2+ years of experience with web development",
+        "contactInfo": {
+            "phone": "+1 (555) 123-4567",
+            "email": "contact@abccompany.com"
+        }
+    },
+    {
+        "id": 2,
+        "companyLogo": "https://example.com/company2.png",
+        "jobTitle": "Marketing Specialist",
+        "companyName": "XYZ Inc.",
+        "remoteOrOnsite": "Onsite",
+        "location": "New York City",
+        "fulltimeOrParttime": "Part-time",
+        "salary": "30,000-40,000",
+        "jobDescription": "We are seeking a talented marketing specialist...",
+        "jobResponsibility": "• Develop marketing strategies and campaigns...\n• Monitor and analyze...",
+        "educationalRequirements": "Bachelor's degree in marketing or related field",
+        "experiences": "1+ years of experience in marketing",
+        "contactInfo": {
+            "phone": "+1 (555) 987-6543",
+            "email": "info@xyzinc.com"
+        }
+    },
+    {
+        "id": 3,
+        "companyLogo": "https://example.com/company3.png",
+        "jobTitle": "Software Engineer",
+        "companyName": "DEF Corporation",
+        "remoteOrOnsite": "Onsite",
+        "location": "Los Angeles",
+        "fulltimeOrParttime": "Full-time",
+        "salary": "70,000-100,000",
+        "jobDescription": "We are seeking a software engineer to join our team...",
+        "jobResponsibility": "• Develop and maintain software applications...\n• Collaborate with...",
+        "educationalRequirements": "Bachelor's degree in computer science or related field",
+        "experiences": "3+ years of experience with software development",
+        "contactInfo": {
+            "phone": "+1 (555) 555-1212",
+            "email": "support@defcorp.com"
+        }
+    },
+    {
+        "id": 4,
+        "companyLogo": "https://example.com/company4-logo.png",
+        "jobTitle": "Senior Frontend Developer",
+        "companyName": "ABC Company",
+        "remoteOrOnsite": "Remote",
+        "location": "New York",
+        "fulltimeOrParttime": "Full-time",
+        "salary": "$120,000 - $140,000",
+        "jobDescription": "We are seeking a highly skilled Senior Frontend Developer to join our team. The ideal candidate will have a passion for creating beautiful, responsive web applications using modern web technologies.",
+        "jobResponsibility": [
+            "Develop and maintain modern web applications using ReactJS",
+            "Work closely with our design team to create beautiful and responsive UIs",
+            "Collaborate with backend developers to integrate frontend with backend APIs",
+            "Ensure high performance of web applications and optimize for scalability",
+            "Stay up-to-date with the latest web development trends and technologies"
+        ],
+        "educationalRequirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "5+ years of experience in frontend web development",
+        "contactInformation": {
+            "phone": "(123) 456-7890",
+            "email": "jobs@abccompany.com"
+        }
+    }
+]

@@ -1,0 +1,26 @@
+{
+    "Category": {
+        "cards": [
+            {
+                "logo": "https://example.com/category1_logo.png",
+                "name": "Category 1",
+                "jobs_available": 50
+            },
+            {
+                "logo": "https://example.com/category2_logo.png",
+                "name": "Category 2",
+                "jobs_available": 25
+            },
+            {
+                "logo": "https://example.com/category3_logo.png",
+                "name": "Category 3",
+                "jobs_available": 10
+            },
+            {
+                "logo": "https://example.com/category4_logo.png",
+                "name": "Category 4",
+                "jobs_available": 15
+            }
+        ]
+    }
+}
