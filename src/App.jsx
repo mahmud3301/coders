@@ -5,13 +5,13 @@ import Navbar from './assets/Components/Navbar/Navbar';
 
 const App = () => {
   return (
-    <div>
+    <>
       <div className='p-9'>
         <Navbar/>
         <HomePage />
       </div>
       <Footer/>
-    </div>
+    </>
   );
 };
 
