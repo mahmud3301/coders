@@ -1,26 +1,26 @@
-{
-    "Category": {
-        "cards": [
-            {
-                "logo": "../src/assets/Icons/accounts 1.png",
-                "name": "Front-end Developer",
-                "jobs_available": "400+"
-            },
-            {
-                "logo": "../src/assets/Icons/business 1.png",
-                "name": "Back-end Developer",
-                "jobs_available": "200+"
-            },
-            {
-                "logo": "../src/assets/Icons/social-media 1.png",
-                "name": "Full-stack Developer",
-                "jobs_available": "300+"
-            },
-            {
-                "logo": "../src/assets/Icons/chip 1.png",
-                "name": "UI/UX Designer",
-                "jobs_available": "100+"
-            }
-        ]
+[
+    {
+        "id":"3253534",
+        "logo": "../src/assets/Icons/accounts 1.png",
+        "name": "Front-end Developer",
+        "jobs_available": "400+"
+    },
+    {
+        "id":"32454674",
+        "logo": "../src/assets/Icons/business 1.png",
+        "name": "Back-end Developer",
+        "jobs_available": "200+"
+    },
+    {
+        "id":"215356",
+        "logo": "../src/assets/Icons/social-media 1.png",
+        "name": "Full-stack Developer",
+        "jobs_available": "300+"
+    },
+    {
+        "id":"5745857",
+        "logo": "../src/assets/Icons/chip 1.png",
+        "name": "UI/UX Designer",
+        "jobs_available": "100+"
     }
-}
+]

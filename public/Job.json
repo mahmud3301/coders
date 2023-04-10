@@ -1,80 +1,110 @@
 [
     {
-        "id": 1,
-        "companyLogo": "https://example.com/company1.png",
-        "jobTitle": "Web Developer",
-        "companyName": "ABC Company",
-        "remoteOrOnsite": "Remote",
-        "location": "Anywhere",
-        "fulltimeOrParttime": "Full-time",
-        "salary": "50,000-80,000",
-        "jobDescription": "We are looking for a web developer to join our team...",
-        "jobResponsibility": "• Develop and maintain web applications...\n• Collaborate with...",
-        "educationalRequirements": "Bachelor's degree in computer science or related field",
-        "experiences": "2+ years of experience with web development",
-        "contactInfo": {
-            "phone": "+1 (555) 123-4567",
-            "email": "contact@abccompany.com"
-        }
-    },
-    {
-        "id": 2,
-        "companyLogo": "https://example.com/company2.png",
-        "jobTitle": "Marketing Specialist",
-        "companyName": "XYZ Inc.",
-        "remoteOrOnsite": "Onsite",
-        "location": "New York City",
-        "fulltimeOrParttime": "Part-time",
-        "salary": "30,000-40,000",
-        "jobDescription": "We are seeking a talented marketing specialist...",
-        "jobResponsibility": "• Develop marketing strategies and campaigns...\n• Monitor and analyze...",
-        "educationalRequirements": "Bachelor's degree in marketing or related field",
-        "experiences": "1+ years of experience in marketing",
-        "contactInfo": {
-            "phone": "+1 (555) 987-6543",
-            "email": "info@xyzinc.com"
-        }
-    },
-    {
-        "id": 3,
-        "companyLogo": "https://example.com/company3.png",
-        "jobTitle": "Software Engineer",
-        "companyName": "DEF Corporation",
-        "remoteOrOnsite": "Onsite",
-        "location": "Los Angeles",
-        "fulltimeOrParttime": "Full-time",
-        "salary": "70,000-100,000",
-        "jobDescription": "We are seeking a software engineer to join our team...",
-        "jobResponsibility": "• Develop and maintain software applications...\n• Collaborate with...",
-        "educationalRequirements": "Bachelor's degree in computer science or related field",
-        "experiences": "3+ years of experience with software development",
-        "contactInfo": {
-            "phone": "+1 (555) 555-1212",
-            "email": "support@defcorp.com"
-        }
-    },
-    {
-        "id": 4,
-        "companyLogo": "https://example.com/company4-logo.png",
-        "jobTitle": "Senior Frontend Developer",
-        "companyName": "ABC Company",
-        "remoteOrOnsite": "Remote",
-        "location": "New York",
-        "fulltimeOrParttime": "Full-time",
-        "salary": "$120,000 - $140,000",
-        "jobDescription": "We are seeking a highly skilled Senior Frontend Developer to join our team. The ideal candidate will have a passion for creating beautiful, responsive web applications using modern web technologies.",
-        "jobResponsibility": [
-            "Develop and maintain modern web applications using ReactJS",
-            "Work closely with our design team to create beautiful and responsive UIs",
-            "Collaborate with backend developers to integrate frontend with backend APIs",
-            "Ensure high performance of web applications and optimize for scalability",
-            "Stay up-to-date with the latest web development trends and technologies"
-        ],
-        "educationalRequirements": "Bachelor's degree in Computer Science or related field",
-        "experiences": "5+ years of experience in frontend web development",
-        "contactInformation": {
+        "id": "001",
+        "company_logo": "https://example.com/logo.png",
+        "job_title": "Frontend Developer",
+        "company_name": "ABC Inc.",
+        "remote_or_onsite": "Remote",
+        "location": "New York, NY",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$80,000 - $100,000",
+        "job_description": "We are seeking a talented Frontend Developer to join our team.",
+        "job_responsibility": "1. Develop new user-facing features 2. Build reusable code and libraries for future use 3. Ensure the technical feasibility of UI/UX designs 4. Optimize application for maximum speed and scalability",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "2+ years of experience as a Frontend Developer",
+        "contact_information": {
             "phone": "(123) 456-7890",
-            "email": "jobs@abccompany.com"
+            "email": "jobs@abcinc.com"
+        }
+    },
+    {
+        "id": "002",
+        "company_logo": "https://example.com/logo.png",
+        "job_title": "Backend Developer",
+        "company_name": "XYZ Corp.",
+        "remote_or_onsite": "Onsite",
+        "location": "San Francisco, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$90,000 - $120,000",
+        "job_description": "We are looking for an experienced Backend Developer to join our team.",
+        "job_responsibility": "1. Develop and maintain server-side applications 2. Collaborate with front-end developers to integrate user-facing elements with server-side logic 3. Write reusable, testable, and efficient code 4. Ensure high performance and scalability of applications",
+        "educational_requirements": "Bachelor's degree in Computer Science or related field",
+        "experiences": "3+ years of experience as a Backend Developer",
+        "contact_information": {
+            "phone": "(111) 222-3333",
+            "email": "jobs@xyzcorp.com"
+        }
+    },
+    {
+        "id": "003",
+        "company_logo": "https://example.com/logo.png",
+        "job_title": "Marketing Manager",
+        "company_name": "123 Enterprises",
+        "remote_or_onsite": "Remote",
+        "location": "Chicago, IL",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$70,000 - $90,000",
+        "job_description": "We are seeking a talented Marketing Manager to join our team.",
+        "job_responsibility": "1. Develop and implement marketing strategies and campaigns 2. Analyze market trends and competitor activity to identify opportunities for growth 3. Manage and coordinate marketing team members 4. Measure and report on the effectiveness of marketing campaigns",
+        "educational_requirements": "Bachelor's degree in Marketing or related field",
+        "experiences": "5+ years of experience in marketing, with at least 2 years in a management role",
+        "contact_information": {
+            "phone": "(555) 666-7777",
+            "email": "jobs@123enterprises.com"
+        }
+    },
+    {
+        "id": "004",
+        "company_logo": "https://example.com/logo.png",
+        "job_title": "Graphic Designer",
+        "company_name": "456 Designs",
+        "remote_or_onsite": "Remote",
+        "location": "Houston, TX",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$30 - $50 per hour",
+        "job_description": "We are looking for a skilled Graphic Designer to create engaging visual content for our clients.",
+        "job_responsibility": "1. Develop and design visual content for print and digital media 2. Collaborate with clients and other team members to determine project goals and requirements 3. Present design concepts and ideas to clients and receive feedback for refinement 4. Ensure that all designs are on-brand and visually appealing",
+        "educational_requirements": "Bachelor's degree in Graphic Design or related field",
+        "experiences": "3+ years of experience as a Graphic Designer",
+        "contact_information": {
+            "phone": "(444) 555-6666",
+            "email": "jobs@456designs.com"
+        }
+    },
+    {
+        "id": "005",
+        "company_logo": "https://example.com/logo.png",
+        "job_title": "Human Resources Manager",
+        "company_name": "789 Inc.",
+        "remote_or_onsite": "Onsite",
+        "location": "Los Angeles, CA",
+        "fulltime_or_parttime": "Full-time",
+        "salary": "$100,000 - $120,000",
+        "job_description": "We are seeking an experienced Human Resources Manager to oversee all HR operations and initiatives.",
+        "job_responsibility": "1. Develop and implement HR policies and procedures 2. Manage employee relations, including conflict resolution and disciplinary actions 3. Oversee recruitment and onboarding processes 4. Ensure compliance with all employment laws and regulations",
+        "educational_requirements": "Bachelor's degree in Human Resources or related field",
+        "experiences": "7+ years of experience in HR, with at least 3 years in a management role",
+        "contact_information": {
+            "phone": "(777) 888-9999",
+            "email": "jobs@789inc.com"
+        }
+    },
+    {
+        "id": "006",
+        "company_logo": "https://example.com/logo.png",
+        "job_title": "Customer Service Representative",
+        "company_name": "XYZ Corp.",
+        "remote_or_onsite": "Onsite",
+        "location": "Seattle, WA",
+        "fulltime_or_parttime": "Part-time",
+        "salary": "$15 - $20 per hour",
+        "job_description": "We are looking for a friendly and customer-oriented individual to join our Customer Service team.",
+        "job_responsibility": "1. Respond to customer inquiries and complaints via phone, email, or chat 2. Resolve customer issues in a timely and efficient manner 3. Maintain accurate records of customer interactions and transactions 4. Collaborate with other team members to improve customer experience",
+        "educational_requirements": "High School diploma or equivalent",
+        "experiences": "1+ years of experience in customer service or related field",
+        "contact_information": {
+            "phone": "(999) 888-7777",
+            "email": "jobs@xyzcorp.com"
         }
     }
 ]
