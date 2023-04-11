@@ -19,7 +19,7 @@ const Navbar = () => {
                     </div>
                 </div>
                 <div class="flex items-center justify-center lg:justify-start lg:navbar-start">
-                    <Link class="btn btn-ghost font-bold text-xl mr-20" to="/">Coders</Link>
+                    <Link class="p-5 font-bold text-xl mr-20" to="/">Coders</Link>
                 </div>
                 <div class="hidden lg:flex navbar-center">
                     <ul class="flex font-medium text-xl text-slate-500">
@@ -30,7 +30,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div class="navbar-end sm:ml-8">
-                    <button className="btn btn-ghost bg-gradient-to-r text bg-clip-btn from-indigo-500 to-purple-600 text-white">Start Applying</button>
+                    <button className="p-5 rounded-lg bg-gradient-to-r text bg-clip-btn from-indigo-500 to-purple-600 text-white">Start Applying</button>
                 </div>
             </div>
         </div>

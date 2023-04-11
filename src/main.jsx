@@ -11,6 +11,7 @@ import HomePage from './assets/Components/HomePage/HomePage';
 import Jobs from './assets/Components/Jobs/Jobs';
 import Blogs from './assets/Components/Blogs/Blogs';
 import Error from './assets/Components/Error/Error';
+import JobDetails from './assets/Components/JobDetails/JobDetails';
 
 const router = createBrowserRouter([
   {
@@ -22,7 +23,11 @@ const router = createBrowserRouter([
         path: "/",
         element: <HomePage/>,
         loader: () => fetch(`Card.json`),
-        // loader: () => fetch(`Job.json`)
+      },
+      {
+        path: "featureJobs/:featureJobsId",
+        element: <JobDetails/>,
+        loader: ({ params }) => fetch(`https://jsonplaceholder.typicode.com/users/${params.JobDetailsId}`),
       },
       {
         path: "/Statistics",

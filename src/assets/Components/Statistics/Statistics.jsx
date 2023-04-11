@@ -1,63 +1,27 @@
 import React from 'react';
-import { ComposedChart, XAxis, YAxis, Tooltip, Legend, CartesianGrid ,Area,Bar,Line} from 'recharts';
+import { ComposedChart, XAxis, YAxis, Tooltip, Legend, CartesianGrid, Area, Line } from 'recharts';
 
 const Statistics = () => {
     const data = [
-        {
-            "name": "Page A",
-            "uv": 4000,
-            "pv": 2400,
-            "amt": 2400
-        },
-        {
-            "name": "Page B",
-            "uv": 3000,
-            "pv": 1398,
-            "amt": 2210
-        },
-        {
-            "name": "Page C",
-            "uv": 2000,
-            "pv": 9800,
-            "amt": 2290
-        },
-        {
-            "name": "Page D",
-            "uv": 2780,
-            "pv": 3908,
-            "amt": 2000
-        },
-        {
-            "name": "Page E",
-            "uv": 1890,
-            "pv": 4800,
-            "amt": 2181
-        },
-        {
-            "name": "Page F",
-            "uv": 2390,
-            "pv": 3800,
-            "amt": 2500
-        },
-        {
-            "name": "Page G",
-            "uv": 3490,
-            "pv": 4300,
-            "amt": 2100
-        }
-    ]
+        { name: 'Assignment 01', marks: '59' },
+        { name: 'Assignment 02', marks: '58' },
+        { name: 'Assignment 03', marks: '60' },
+        { name: 'Assignment 04', marks: '60' },
+        { name: 'Assignment 05', marks: '59' },
+        { name: 'Assignment 06', marks: '60' },
+        { name: 'Assignment 07', marks: '60' },
+    ];
 
     return (
-        <div>
-            <ComposedChart className='justify-center mx-auto items-center mt-96' width={730} height={250} data={data}>
+        <div style={{ width: '100%', maxWidth: '1200px', margin: '0 auto' }}>
+            <ComposedChart width={1200} height={400} data={data}>
                 <XAxis dataKey="name" />
                 <YAxis />
                 <Tooltip />
                 <Legend />
                 <CartesianGrid stroke="#f5f5f5" />
-                <Area type="monotone" dataKey="amt" fill="#8884d8" stroke="#8884d8" />
-                <Bar dataKey="pv" barSize={20} fill="#413ea0" />
-                <Line type="monotone" dataKey="uv" stroke="#ff7300" />
+                <Area type="monotone" dataKey="marks" stroke="#8884d8" fill="#8884d8" />
+                <Line type="monotone" dataKey="marks" stroke="#82ca9d" />
             </ComposedChart>
         </div>
     );

@@ -1,5 +1,4 @@
 import React from 'react';
-import Account from '../../Icons/accounts 1.png'
 
 const SingleCard = ({ Cards }) => {
     const { logo, name, jobs_available } = Cards;
