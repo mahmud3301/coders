@@ -37,16 +37,6 @@ const FeatureJobs = ({ featureJobs }) => {
                                             {featureJob.fulltime_or_parttime}
                                         </h1>
                                     </div>
-                                    {/* <div className='flex justify-between mt-3'>
-                                        <div className='flex mr-3'>
-                                            <img className='mr-2' src={location} />
-                                            <p>{featureJob.location}</p>
-                                        </div>
-                                        <div className='flex mr-3 ml-9'>
-                                            <img className='mr-3' src={frame} />
-                                            <p>Salary : {featureJob.salary}</p>
-                                        </div>
-                                    </div> */}
                                     <div className='lg:flex justify-between flex-wrap mt-3  sm:items-start'>
                                         <div className='flex items-center mr-3'>
                                             <img className='mr-2' src={location} />

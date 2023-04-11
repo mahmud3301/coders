@@ -2,6 +2,11 @@ import React, { useEffect, useState } from "react";
 import { useLoaderData, useParams } from "react-router-dom";
 import vector from "../../All Images/Vector-1.png"
 import vector2 from "../../All Images/Vector.png"
+import locationImg from '../../Icons/Frame-4.png'
+import salaryImg from '../../Icons/Frame.png'
+import job from '../../Icons/Frame-1.png'
+import phoneImg from '../../Icons/Frame-2.png'
+import emailImg from '../../Icons/Frame-3.png'
 
 const JobDetails = () => {
     const jobDetails = useParams();
@@ -16,7 +21,7 @@ const JobDetails = () => {
             setDatas(values);
         }
     }, []);
-    const { job_description, job_responsibility, educational_requirements, experiences, salary, job_title, contact_information} = datas;
+    const { job_description, job_responsibility, educational_requirements, experiences, salary, job_title, location, email, phone } = datas;
 
     return (
         <div>
@@ -31,14 +36,46 @@ const JobDetails = () => {
                     <img src={vector} alt="" />
                 </div>
             </div>
-            <div className="p-7">
+            <div className="p-7 lg:flex">
                 <div className="w-[67%]">
-                    <p className="text-lg">{job_description}</p>
-                    <p className="text-lg">{job_responsibility}</p>
-                    <p className="text-lg">{educational_requirements}</p>
+                    <p className="text-lg"><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Job Description:</span> {job_description}</p><br /><br />
+                    <p className="text-lg"><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Job Responsibility:</span> {job_responsibility}</p><br /><br />
+                    <p className="text-lg"><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Educational Requirements:</span> {educational_requirements}</p><br /><br />
+                    <p><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Experience:</span>  {experiences}</p>
                 </div>
-                <div className="w-[33%]">
+                <div className="w-[33%] ">
+                    <div className="border-2 border-purple-400 mt-7 lg:mt-0 p-4 bg-black">
+                        <p className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Job Details</p><br />
+                        <hr className="border-1 border-purple-400" /><br />
+                        <div className="flex">
+                            <img className="mr-3" src={salaryImg} />
+                            <p><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Salary:</span> {salary}</p>
+                        </div> <br />
+                        <div className="flex">
+                            <img className="mr-3" src={job} />
+                            <p><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Job Title:</span> {job_title}</p>
+                        </div> <br /><br />
+                        <div>
+                            <p className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Contact Information</p> <br />
+                        </div>
+                        <hr className="border-1 border-purple-400" /><br />
 
+                        <div className="flex">
+                            <img className="mr-3" src={phoneImg}/>
+                            <p><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Phone:</span> {phone}</p>
+                        </div> <br />
+                        <div className="flex">
+                            <img className="mr-3" src={emailImg} />
+                            <p><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Email:</span> {email}</p>
+                        </div> <br />
+                        <div className="flex">
+                            <img className="mr-3" src={locationImg} />
+                            <p><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Address:</span> {location}</p>
+                        </div>
+                    </div><br />
+                    <div>
+                        <button className="p-5 rounded-lg bg-gradient-to-r text bg-clip-btn from-indigo-500 to-purple-600 text-white text-center w-full">Apply Now</button>
+                    </div>
                 </div>
             </div>
         </div>

@@ -9,13 +9,11 @@
         "fulltime_or_parttime": "Full-time",
         "salary": "$80,000 - $100,000",
         "job_description": "We are seeking a talented Frontend Developer to join our team.",
-        "job_responsibility": "1. Develop new user-facing features 2. Build reusable code and libraries for future use 3. Ensure the technical feasibility of UI/UX designs 4. Optimize application for maximum speed and scalability",
+        "job_responsibility": "Develop new user-facing features. Build reusable code and libraries for future use. Ensure the technical feasibility of UI/UX designs. Optimize application for maximum speed and scalability",
         "educational_requirements": "Bachelor's degree in Computer Science or related field",
         "experiences": "2+ years of experience as a Frontend Developer",
-        "contact_information": {
-            "phone": "(123) 456-7890",
-            "email": "jobs@abcinc.com"
-        }
+        "phone": "(123) 456-7890",
+        "email": "jobs@abcinc.com"
     },
     {
         "id": 2,
@@ -27,13 +25,11 @@
         "fulltime_or_parttime": "Full-time",
         "salary": "$90,000 - $120,000",
         "job_description": "We are looking for an experienced Backend Developer to join our team.",
-        "job_responsibility": "1. Develop and maintain server-side applications 2. Collaborate with front-end developers to integrate user-facing elements with server-side logic 3. Write reusable, testable, and efficient code 4. Ensure high performance and scalability of applications",
+        "job_responsibility": "Develop and maintain server-side applications. Collaborate with front-end developers to integrate user-facing elements with server-side logic. Write reusable, testable, and efficient code. Ensure high performance and scalability of applications",
         "educational_requirements": "Bachelor's degree in Computer Science or related field",
         "experiences": "3+ years of experience as a Backend Developer",
-        "contact_information": {
-            "phone": "(111) 222-3333",
-            "email": "jobs@xyzcorp.com"
-        }
+        "phone": "(111) 222-3333",
+        "email": "jobs@xyzcorp.com"
     },
     {
         "id": 3,
@@ -45,66 +41,58 @@
         "fulltime_or_parttime": "Full-time",
         "salary": "$70,000 - $90,000",
         "job_description": "We are seeking a talented Marketing Manager to join our team.",
-        "job_responsibility": "1. Develop and implement marketing strategies and campaigns 2. Analyze market trends and competitor activity to identify opportunities for growth 3. Manage and coordinate marketing team members 4. Measure and report on the effectiveness of marketing campaigns",
+        "job_responsibility": "Develop and implement marketing strategies and campaigns. Analyze market trends and competitor activity to identify opportunities for growth. Manage and coordinate marketing team members. Measure and report on the effectiveness of marketing campaigns",
         "educational_requirements": "Bachelor's degree in Marketing or related field",
         "experiences": "5+ years of experience in marketing, with at least 2 years in a management role",
-        "contact_information": {
-            "phone": "(555) 666-7777",
-            "email": "jobs@123enterprises.com"
-        }
+        "phone": "(555) 666-7777",
+        "email": "jobs@123enterprises.com"
     },
     {
         "id": 4,
         "company_logo": "../src/assets/Logo/google-1-1 1.png",
-        "job_title": "Graphic Designer",
+        "job_title": "UI/UX Designer",
         "company_name": "Google LLC",
         "remote_or_onsite": "Remote",
         "location": "Houston, TX",
         "fulltime_or_parttime": "Part-time",
         "salary": "$30 - $50 per hour",
         "job_description": "We are looking for a skilled Graphic Designer to create engaging visual content for our clients.",
-        "job_responsibility": "1. Develop and design visual content for print and digital media 2. Collaborate with clients and other team members to determine project goals and requirements 3. Present design concepts and ideas to clients and receive feedback for refinement 4. Ensure that all designs are on-brand and visually appealing",
+        "job_responsibility": "Develop and design visual content for print and digital media. Collaborate with clients and other team members to determine project goals and requirements. Present design concepts and ideas to clients and receive feedback for refinement. Ensure that all designs are on-brand and visually appealing",
         "educational_requirements": "Bachelor's degree in Graphic Design or related field",
         "experiences": "3+ years of experience as a Graphic Designer",
-        "contact_information": {
-            "phone": "(444) 555-6666",
-            "email": "jobs@456designs.com"
-        }
+        "phone": "(444) 555-6666",
+        "email": "jobs@456designs.com"
     },
     {
         "id": 5,
         "company_logo": "../src/assets/Logo/netflix-4 1.png",
-        "job_title": "Human Resources Manager",
+        "job_title": "Backend Developer",
         "company_name": "Netflix",
         "remote_or_onsite": "Onsite",
         "location": "Los Angeles, CA",
         "fulltime_or_parttime": "Full-time",
         "salary": "$100,000 - $120,000",
         "job_description": "We are seeking an experienced Human Resources Manager to oversee all HR operations and initiatives.",
-        "job_responsibility": "1. Develop and implement HR policies and procedures 2. Manage employee relations, including conflict resolution and disciplinary actions 3. Oversee recruitment and onboarding processes 4. Ensure compliance with all employment laws and regulations",
+        "job_responsibility": "Develop and implement HR policies and procedures. Manage employee relations, including conflict resolution and disciplinary actions. Oversee recruitment and onboarding processes. Ensure compliance with all employment laws and regulations",
         "educational_requirements": "Bachelor's degree in Human Resources or related field",
         "experiences": "7+ years of experience in HR, with at least 3 years in a management role",
-        "contact_information": {
-            "phone": "(777) 888-9999",
-            "email": "jobs@789inc.com"
-        }
+        "phone": "(777) 888-9999",
+        "email": "jobs@789inc.com"
     },
     {
         "id": 6,
         "company_logo": "../src/assets/Logo/tesla-9 1.png",
-        "job_title": "Customer Service Representative",
+        "job_title": "Marketing Manager",
         "company_name": "Tesla",
         "remote_or_onsite": "Onsite",
         "location": "Seattle, WA",
         "fulltime_or_parttime": "Part-time",
         "salary": "$15 - $20 per hour",
         "job_description": "We are looking for a friendly and customer-oriented individual to join our Customer Service team.",
-        "job_responsibility": "1. Respond to customer inquiries and complaints via phone, email, or chat 2. Resolve customer issues in a timely and efficient manner 3. Maintain accurate records of customer interactions and transactions 4. Collaborate with other team members to improve customer experience",
+        "job_responsibility": "Respond to customer inquiries and complaints via phone, email, or chat. Resolve customer issues in a timely and efficient manner. Maintain accurate records of customer interactions and transactions. Collaborate with other team members to improve customer experience",
         "educational_requirements": "High School diploma or equivalent",
         "experiences": "1+ years of experience in customer service or related field",
-        "contact_information": {
-            "phone": "(999) 888-7777",
-            "email": "jobs@xyzcorp.com"
-        }
+        "phone": "(999) 888-7777",
+        "email": "jobs@xyzcorp.com"
     }
 ]
