@@ -30,7 +30,7 @@ const Navbar = () => {
                     </ul>
                 </div>
                 <div class="navbar-end sm:ml-8">
-                    <button className="p-5 rounded-lg bg-gradient-to-r text bg-clip-btn from-indigo-500 to-purple-600 text-white">Start Applying</button>
+                    <button className="btn rounded-lg bg-gradient-to-r text bg-clip-btn from-indigo-500 to-purple-600 text-white">Start Applying</button>
                 </div>
             </div>
         </div>

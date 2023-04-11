@@ -25,9 +25,9 @@ const router = createBrowserRouter([
         loader: () => fetch(`Card.json`),
       },
       {
-        path: "featureJobs/:featureJobsId",
+        path: "/jobdetails/:detailsId",
         element: <JobDetails/>,
-        loader: ({ params }) => fetch(`https://jsonplaceholder.typicode.com/users/${params.JobDetailsId}`),
+        loader: () => fetch(`Job.json`),
       },
       {
         path: "/Statistics",

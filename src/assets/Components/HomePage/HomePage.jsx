@@ -11,8 +11,7 @@ const HomePage = () => {
         fetch('Job.json')
             .then(res => res.json())
             .then(data => setFeatureJobs(data));
-    })
-    // console.log(featureJobs);
+    }, []);
     return (
         <>
             <div className='lg:flex justify-between w-full'>
