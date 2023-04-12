@@ -42,7 +42,7 @@ const JobDetails = () => {
                 <div>
                     <img src="https://i.ibb.co/c3vc2cp/Vector.png" />
                 </div>
-                <h2 className="text-center bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600 text-3xl font-bold	lg:mt-20 lg:mr-14">
+                <h2 className="text-center bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600 text-3xl font-bold	lg:mt-20 mx-auto justify-center">
                     Job Details
                 </h2>
                 <div>

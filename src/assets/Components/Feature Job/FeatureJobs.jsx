@@ -4,15 +4,12 @@ import { Link } from 'react-router-dom';
 
 const FeatureJobs = ({ featureJobs }) => {
     const [showAll, setShowAll] = useState(false);
-    const hnadleShowAll = () => {
-        setShowAll(true);
-    };
     return (
         <>
             <div>
                 <div className='grid grid-cols-1 lg:grid-cols-2 gap-5 p-3'>
                     {featureJobs
-                        .slice(0, showAll ? 6 : 4)
+                        .slice(0, showAll ? featureJobs.length : 4)
                         .map((featureJob) => (
                             <div
                                 key={featureJob.id}
@@ -55,10 +52,10 @@ const FeatureJobs = ({ featureJobs }) => {
                             </div>
                         ))}
                 </div>
-                {!showAll && (
-                    <span onClick={hnadleShowAll}>
+                {featureJobs.length > 4 && (
+                    <span onClick={() => setShowAll(!showAll)}>
                         <div className='text-center mt-7'>
-                            <button className="p-4 rounded-lg bg-gradient-to-r text bg-clip-btn from-indigo-500 to-purple-600 text-white">See All Jobs</button>
+                            <button className="p-4 rounded-lg bg-gradient-to-r text bg-clip-btn from-indigo-500 to-purple-600 text-white">{showAll ? 'Show Less' : 'See All Jobs'}</button>
                         </div>
                     </span>
                 )}

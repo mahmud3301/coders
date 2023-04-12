@@ -1,6 +1,5 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
-import Layout from './assets/Components/Layout/Layout'
 import Statistics from './assets/Components/Statistics/Statistics';
 import './index.css'
 import {
@@ -12,6 +11,7 @@ import Jobs from './assets/Components/Jobs/Jobs';
 import Blogs from './assets/Components/Blogs/Blogs';
 import Error from './assets/Components/Error/Error';
 import JobDetails from './assets/Components/JobDetails/JobDetails';
+import Layout from './assets/Components/Layout/Layout';
 
 const router = createBrowserRouter([
   {
