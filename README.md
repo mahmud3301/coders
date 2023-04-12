@@ -13,24 +13,24 @@
   - If there are more than 4 jobs in the featureJobs array, a "See All Jobs" button is displayed at the bottom, which when clicked shows all the jobs.
 
 * Those things that i do in my Blogs Components
- - Imported the React library: import React from 'react';
- - Defined a functional component called BlogsThe Blogs component returned a JSX element that contained a list of collapsible panels.
- - Each panel had a title and content, with the content being collapsed by default.
- - Used tabIndex to make the panels focusable by keyboard.
- - Used CSS classes to apply styling to the panels and their content.
- - Each panel had a question as the title, with an answer as the content.
- - The questions covered different React concepts: Context API, custom hooks, useRef, and useMemo.
- - The answers provided brief explanations of each concept.
- - Used the className attribute to apply CSS classes to the containing div element.
- - Exported the Blogs component as the default export.
+  - Imported the React library: import React from 'react';
+  - Defined a functional component called BlogsThe Blogs component returned a JSX element that contained a list of collapsible panels.
+  - Each panel had a title and content, with the content being collapsed by default.
+  - Used tabIndex to make the panels focusable by keyboard.
+  - Used CSS classes to apply styling to the panels and their content.
+  - Each panel had a question as the title, with an answer as the content.
+  - The questions covered different React concepts: Context API, custom hooks, useRef, and useMemo.
+  - The answers provided brief explanations of each concept.
+  - Used the className attribute to apply CSS classes to the containing div element.
+  - Exported the Blogs component as the default export.
 
 * Those things that i do in my Error Components
- - Import React and the Link component from the react-router-dom library
- - Define a function-based component named Error404
- - Return JSX code that displays a 404 error message along with a link to go back to the home page
- - The JSX code uses Tailwind CSS classes for styling, including a gradient text effect for the "404" and error message text
- - The Link component is used to create a clickable link that navigates to the home page ("/") when clicked
- - The Error404 component is exported as the default export of the module.
+  - Import React and the Link component from the react-router-dom library
+  - Define a function-based component named Error404
+  - Return JSX code that displays a 404 error message along with a link to go back to the home page
+  - The JSX code uses Tailwind CSS classes for styling, including a gradient text effect for the "404"  and error message text
+  - The Link component is used to create a clickable link that navigates to the home page ("/") when clicked
+  - The Error404 component is exported as the default export of the module.
 
 * Those things that i do in my Footer Components
   - Imported the React library at the top of the file.
