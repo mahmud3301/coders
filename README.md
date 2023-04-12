@@ -33,26 +33,26 @@
  - The Error404 component is exported as the default export of the module.
 
 * Those things that i do in my Footer Components
- - Imported the React library at the top of the file.
- - Created a functional component called Footer using an arrow function syntax.
- - Defined a JSX template within the component that renders the footer section of your blog.
- - Used tailwind CSS classes to style the elements of the footer section.
- - Exported the Footer component at the bottom of the file for use in other parts of your application.
+  - Imported the React library at the top of the file.
+  - Created a functional component called Footer using an arrow function syntax.
+  - Defined a JSX template within the component that renders the footer section of your blog.
+  - Used tailwind CSS classes to style the elements of the footer section.
+  - Exported the Footer component at the bottom of the file for use in other parts of your application.
 
 * Those things that i do in my HomePage Components
- - I have imported React, useState, useEffect, useLoaderData, and components for rendering the homepage and footer.
- - I have created a functional component called HomePage that renders the homepage of your website.
- - I have used the useLoaderData hook from react-router-dom to fetch job data from the Job.json file.
- - I have used the useState hook to set the state for featured jobs and useEffect hook to fetch data from the Job.json file when the component mounts.
- - I have rendered the header section of the homepage with a title, subtitle, and a call-to-action button.
- - I have rendered the job categories section with a title and description and used a grid to render the job cards.
- - I have rendered the featured jobs section with a title, description, and used a grid to render the featured job cards.
- - I have created a functional component called SingleCard that renders the job card.
- - I have created a functional component called FeatureJobs that renders the featured job card.
- - I have exported the HomePage component as the default export.
+  - I have imported React, useState, useEffect, useLoaderData, and components for rendering the homepage and footer.
+  - I have created a functional component called HomePage that renders the homepage of your website.
+  - I have used the useLoaderData hook from react-router-dom to fetch job data from the Job.json file.
+  - I have used the useState hook to set the state for featured jobs and useEffect hook to fetch data from the Job.json file when the component mounts.
+  - I have rendered the header section of the homepage with a title, subtitle, and a call-to-action button.
+  - I have rendered the job categories section with a title and description and used a grid to render the job cards.
+  - I have rendered the featured jobs section with a title, description, and used a grid to render the featured job cards.
+  - I have created a functional component called SingleCard that renders the job card.
+  - I have created a functional component called FeatureJobs that renders the featured job card.
+  - I have exported the HomePage component as the default export.
 
 * Those things that i do in my JobDetails Components
- - This is a React component that displays job details and allows users to apply for the job. It uses React Router to get the job ID from the URL and fetches the job details using a useLoaderData hook. The component also uses the useState hook to manage the job details and the useEffect hook to fetch the job details when the component mounts.
+  - This is a React component that displays job details and allows users to apply for the job. It uses React Router to get the job ID from the URL and fetches the job details using a useLoaderData hook. The component also uses the useState hook to manage the job details and the useEffect hook to fetch the job details when the component mounts.
   - The handleAppNow function is called when the user clicks the "Apply Now" button. It retrieves the data from localStorage and checks if the job ID already exists in the data array. If the job ID doesn't exist, it adds the job ID to the data array and stores it in localStorage. Otherwise, it shows an error message indicating that the job has already been applied for.
   - The component uses the react-hot-toast library to show success and error messages when the user applies for a job.
   - The JSX code in the component displays the job details, including the job description, job responsibilities, educational requirements, experience, salary, job title, location, email, phone, and the "Apply Now" button.
