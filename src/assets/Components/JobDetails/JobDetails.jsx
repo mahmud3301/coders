@@ -57,7 +57,7 @@ const JobDetails = () => {
                     <p className="text-xl text-slate-500"><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Experience:</span><br /><br />  {experiences}</p>
                 </div>
                 <div className="lg:w-[30%] w-full">
-                    <div className="border-2 border-purple-400 mt-7 lg:mt-0 p-4 bg-base-300">
+                    <div className="rounded-xl border-2 border-purple-400 mt-7 lg:mt-0 p-4 bg-base-300">
                         <p className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Job Details</p><br />
                         <hr className="border-1 border-purple-400" /><br />
                         <div className="flex">

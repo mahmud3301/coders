@@ -64,7 +64,7 @@ const Jobs = () => {
                     filterItem.map(job => <div className='mt-5'>
                         <div
                             key={job.id}
-                            className='card w-full border-2 shadow-md hover:shadow-lg bg-base-300 border-indigo-500 pr-5 lg:pr-72'
+                            className='card w-full shadow-md hover:shadow-lg bg-base-300 pr-5 lg:pr-72'
                         >
                             <div className='p-4 lg:p-12 flex flex-col lg:flex-row items-center'>
                                 <div>
