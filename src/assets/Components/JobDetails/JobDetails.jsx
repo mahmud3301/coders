@@ -53,8 +53,8 @@ const JobDetails = () => {
                 <div className="lg:w-[65%] w-full">
                     <p className="text-lg text-slate-500"><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Job Description:</span> {job_description}</p><br /><br />
                     <p className="text-lg text-slate-500"><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Job Responsibility:</span> {job_responsibility}</p><br /><br />
-                    <p className="text-lg text-slate-500"><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Educational Requirements:</span> {educational_requirements}</p><br /><br />
-                    <p className="text-xl text-slate-500"><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Experience:</span>  {experiences}</p>
+                    <p className="text-lg text-slate-500"><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Educational Requirements:</span> <br /><br />{educational_requirements}</p><br /><br />
+                    <p className="text-xl text-slate-500"><span className="text-xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">Experience:</span><br /><br />  {experiences}</p>
                 </div>
                 <div className="lg:w-[30%] w-full">
                     <div className="border-2 border-purple-400 mt-7 lg:mt-0 p-4 bg-base-300">
