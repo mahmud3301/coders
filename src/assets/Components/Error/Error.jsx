@@ -3,7 +3,7 @@ import { Link } from 'react-router-dom';
 
 function Error404() {
     return (
-        <div className="flex flex-col items-center justify-center h-screen">
+        <div className="flex flex-col items-center justify-center h-screen p-5">
             <h1 className="text-6xl font-bold bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">404</h1><br />
             <p className="text-2xl font-medium bg-gradient-to-r text-transparent bg-clip-text from-indigo-500 to-purple-600">
                 Oops! The page you're looking for does not exist.
