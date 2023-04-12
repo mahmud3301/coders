@@ -1,25 +1,25 @@
 [
     {
         "id":"3253534",
-        "logo": "../src/assets/Icons/accounts 1.png",
+        "logo": "https://i.ibb.co/4wL8SZt/accounts-1.png",
         "name": "Front-end Developer",
         "jobs_available": "400+"
     },
     {
         "id":"32454674",
-        "logo": "../src/assets/Icons/business 1.png",
+        "logo": "https://i.ibb.co/WF3zh4S/business-1.png",
         "name": "Back-end Developer",
         "jobs_available": "200+"
     },
     {
         "id":"215356",
-        "logo": "../src/assets/Icons/social-media 1.png",
+        "logo": "https://i.ibb.co/DM6bpXR/social-media-1.png",
         "name": "Marketing Manager",
         "jobs_available": "300+"
     },
     {
         "id":"5745857",
-        "logo": "../src/assets/Icons/chip 1.png",
+        "logo": "https://i.ibb.co/y02Vk7C/chip-1.png",
         "name": "UI/UX Designer",
         "jobs_available": "100+"
     }

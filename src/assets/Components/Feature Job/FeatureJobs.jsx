@@ -1,6 +1,4 @@
 import React from 'react';
-import location from '../../Icons/Frame-4.png'
-import frame from '../../Icons/Frame.png'
 import { useState } from 'react';
 import { Link } from 'react-router-dom';
 
@@ -39,11 +37,11 @@ const FeatureJobs = ({ featureJobs }) => {
                                     </div>
                                     <div className='lg:flex justify-between flex-wrap mt-3  sm:items-start'>
                                         <div className='flex items-center mr-3'>
-                                            <img className='mr-2' src={location} />
+                                            <img className='mr-2' src="https://i.ibb.co/3SKm3gn/Frame-4.png" />
                                             <p>{featureJob.location}</p>
                                         </div>
                                         <div className='flex items-center mt-3 sm:mt-0'>
-                                            <img className='mr-3' src={frame} />
+                                            <img className='mr-3' src="https://i.ibb.co/fSMRp4d/Frame.png" />
                                             <p>Salary : {featureJob.salary}</p>
                                         </div>
                                     </div>

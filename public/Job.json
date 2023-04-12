@@ -1,7 +1,7 @@
 [
     {
         "id": 1,
-        "company_logo": "../src/assets/Logo/google-1-1 1-1.png",
+        "company_logo": "https://i.ibb.co/vzPPnTG/google-1-1-1-1.png",
         "job_title": "Frontend Developer",
         "company_name": "Google LLC",
         "remote_or_onsite": "Remote",
@@ -17,7 +17,7 @@
     },
     {
         "id": 2,
-        "company_logo": "../src/assets/Logo/netflix-4 1.png",
+        "company_logo": "https://i.ibb.co/PhcXJ2t/netflix-4-1.png",
         "job_title": "Backend Developer",
         "company_name": "Netflix",
         "remote_or_onsite": "Onsite",
@@ -33,7 +33,7 @@
     },
     {
         "id": 3,
-        "company_logo": "../src/assets/Logo/tesla-9 1.png",
+        "company_logo": "https://i.ibb.co/Vg3kfFL/tesla-9-1.png",
         "job_title": "Marketing Manager",
         "company_name": "Tesla",
         "remote_or_onsite": "Remote",
@@ -49,7 +49,7 @@
     },
     {
         "id": 4,
-        "company_logo": "../src/assets/Logo/google-1-1 1.png",
+        "company_logo": "https://i.ibb.co/vzPPnTG/google-1-1-1-1.png",
         "job_title": "UI/UX Designer",
         "company_name": "Google LLC",
         "remote_or_onsite": "Remote",
@@ -65,7 +65,7 @@
     },
     {
         "id": 5,
-        "company_logo": "../src/assets/Logo/netflix-4 1.png",
+        "company_logo": "https://i.ibb.co/PhcXJ2t/netflix-4-1.png",
         "job_title": "Backend Developer",
         "company_name": "Netflix",
         "remote_or_onsite": "Onsite",
@@ -81,7 +81,7 @@
     },
     {
         "id": 6,
-        "company_logo": "../src/assets/Logo/tesla-9 1.png",
+        "company_logo": "https://i.ibb.co/Vg3kfFL/tesla-9-1.png",
         "job_title": "Marketing Manager",
         "company_name": "Tesla",
         "remote_or_onsite": "Onsite",

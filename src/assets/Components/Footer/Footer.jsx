@@ -1,5 +1,4 @@
 import React from 'react';
-import media from '../../Icons/Group 9969.png'
 
 const Footer = () => {
     return (
@@ -9,7 +8,7 @@ const Footer = () => {
                     <div>
                         <h1 className='text-3xl font-bold'>Coders</h1>
                         <p className='text-slate-400'>There are many variations of passages <br /> of Lorem Ipsum , but the majority have <br /> suffered alteration in some form.</p><br />
-                        <img src={media} />
+                        <img src="https://i.ibb.co/4JxQKd9/Group-9969.png" />
                     </div>
                     <div>
                         <span className="footer-title">Company</span>
