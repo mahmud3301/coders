@@ -5,17 +5,7 @@ import toast, { Toaster } from 'react-hot-toast';
 const JobDetails = () => {
     const jobDetails = useParams();
     const featureData = useLoaderData();
-
     const [datas, setDatas] = useState({});
-    useEffect(() => {
-        if (featureData) {
-            const values = featureData.find(
-                (data) => data.id == jobDetails.detailsId
-            );
-            setDatas(values);
-        }
-    }, []);
-    
     const handleAppNow = (id) => {
         let data = [];
         const storedData = localStorage.getItem("data");
@@ -36,11 +26,16 @@ const JobDetails = () => {
             toast.success("Job Applied Successfully");
         }
     }
-
-
-
     const { job_description, job_responsibility, educational_requirements, experiences, salary, job_title, location, email, phone, id } = datas;
-
+    useEffect(() => {
+        if (featureData) {
+            const values = featureData.find(
+                (data) => data.id == jobDetails.detailsId
+            );
+            setDatas(values);
+        }
+    }, []);
+    
     return (
         <div>
             <div className="flex md:justify-between bg-">

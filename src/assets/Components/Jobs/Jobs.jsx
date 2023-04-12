@@ -37,16 +37,21 @@ const Jobs = () => {
                     <img src="https://i.ibb.co/99J32ys/Vector.png" />
                 </div>
             </div><br /><br />
+            <div className='p-14'>
             <div>
-                <div className="dropdown dropdown-end ">
-                    <label tabIndex={0} className="btn m-1">Click</label>
-                    <ul tabIndex={0} className="dropdown-content menu p-2 shadow bg-base-100 rounded-box w-52">
-                        <li><a>Item 1</a></li>
-                        <li><a>Item 2</a></li>
-                    </ul>
+                <div className="flex justify-end mr-20">
+                    <div className="dropdown">
+                            <label tabIndex={0} className="btn p-3 rounded-lg bg-gradient-to-r text bg-clip-btn from-indigo-500 to-purple-600 text-white lg:float-right mt-3 lg:mt-0">Filter By <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" strokeWidth={1.5} stroke="currentColor" className="w-6 h-6 ">
+                                <path strokeLinecap="round" strokeLinejoin="round" d="M19.5 8.25l-7.5 7.5-7.5-7.5" />
+                            </svg>
+</label>
+                            <ul className="dropdown-content menu p-2 shadow-lg bg-base-200 rounded-box w-52">
+                                <li><span><a>Remote Job</a></span></li>
+                                <li><span><a>Onsite</a></span></li>
+                            </ul>
+                    </div>
                 </div>
             </div>
-            <div className='p-14'>
                 {
                     jobs.map(job => <div className='mt-5'>
                         <div
@@ -73,7 +78,7 @@ const Jobs = () => {
                                             <img className='mr-2' src="https://i.ibb.co/3SKm3gn/Frame-4.png" />
                                             <p className='text-slate-500'>{job.location}</p>
                                         </div>
-                                        <div className='flex items-center'>
+                                        <div className='flex items-center ml-3'>
                                             <img className='mr-3' src="https://i.ibb.co/fSMRp4d/Frame.png" />
                                             <p className='text-slate-500'>Salary : {job.salary}</p>
                                         </div>
